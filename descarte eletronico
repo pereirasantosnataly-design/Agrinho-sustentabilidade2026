@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descarte de Lixo Eletrônico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Descarte de Lixo Eletrônico</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Por que é importante?</h2>
+      <p>O lixo eletrônico contém metais pesados que prejudicam o meio ambiente. Descartar corretamente é essencial.</p>
+    </section>
+
+    <section>
+      <h2>Como descartar?</h2>
+      <ul>
+        <li>Levar a pontos de coleta autorizados</li>
+        <li>Doar equipamentos em bom estado</li>
+        <li>Reciclar componentes com empresas especializadas</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Pontos de coleta</h2>
+      <p>Pesquise os pontos de coleta da sua cidade para descartar corretamente seu lixo eletrônico.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Descarte de Lixo Eletrônico</p>
+  </footer>
+</body>
+</html>
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #2d89ef;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ddd;
+}
