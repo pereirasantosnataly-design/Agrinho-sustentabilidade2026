@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarte Consciente de Lixo Eletrônico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Descarte Consciente de Lixo Eletrônico</h1>
+    <p>Pequenas atitudes fazem grande diferença para o planeta.</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#problemas">Problemas</a>
+    <a href="#como">Como Descartar</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+    <h2>O que é lixo eletrônico?</h2>
+    <p>
+        Lixo eletrônico é todo equipamento eletrônico descartado,
+        como celulares, computadores, baterias, impressoras e cabos.
+    </p>
+</section>
+
+<section id="problemas">
+    <h2>Por que o descarte incorreto é perigoso?</h2>
+    <ul>
+        <li>Contaminação do solo.</li>
+        <li>Poluição da água.</li>
+        <li>Riscos à saúde humana.</li>
+        <li>Desperdício de materiais recicláveis.</li>
+    </ul>
+</section>
+
+<section id="como">
+    <h2>Como descartar corretamente?</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>1. Separe os equipamentos</h3>
+            <p>Não misture eletrônicos com lixo comum.</p>
+        </div>
+
+        <div class="card">
+            <h3>2. Procure pontos de coleta</h3>
+            <p>Leve os materiais para locais autorizados.</p>
+        </div>
+
+        <div class="card">
+            <h3>3. Recicle</h3>
+            <p>Os componentes podem ser reaproveitados.</p>
+        </div>
+    </div>
+
+    <button onclick="mostrarMensagem()">
+        Saiba Mais
+    </button>
+
+    <p id="mensagem"></p>
+</section>
+
+<footer id="contato">
+    <p>Projeto Educacional sobre Sustentabilidade © 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+}
+
+header {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+nav {
+    background: #1b5e20;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+}
+
+h2 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #1b5e20;
+}
+
+footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+          function mostrarMensagem() {
+    document.getElementById("mensagem").innerHTML =
+        "Reciclar lixo eletrônico ajuda a preservar recursos naturais e reduzir a poluição ambiental.";
+}
